@@ -13,6 +13,6 @@ app.autodiscover_tasks()
 app.conf.beat_schedule = {
     'send-report-every-single-minute': {
         'task': 'api.tasks.upvote_reset',
-        'schedule': crontab(minute=0, hour=0)
+        'schedule': crontab(minute=1, hour=0)
     },
 }
