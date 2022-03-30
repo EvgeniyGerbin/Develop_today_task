@@ -1,0 +1,28 @@
+# virtual environment
+/venv/
+/env/
+# python cache
+__pycache__
+
+# local database
+pgdata/
+pgsql/
+*.sqlite3
+*.db
+
+Brewfile
+pycache
+.idea
+*.pyc
+vscode
+/local/*
+/locale/*
+cache
+/media/*
+env
+venv
+celerybeat-schedule
+VENV/
+ENV/
+/temp/
+/tmp/
